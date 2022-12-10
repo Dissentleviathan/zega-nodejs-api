@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 const mahasiswaRoutes = require('./routes/mahasiswa')
 const authRoutes = require('./routes/auth')
 
-//(8) daftarkan mahasiswaroutes ke express
+//(8) daftarkan mahasiswaroutes ke expresss
 app.use('/mahasiswa', mahasiswaRoutes)
 app.use('/auth', authRoutes)
 
