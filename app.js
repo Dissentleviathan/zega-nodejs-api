@@ -1,11 +1,8 @@
 // (1) definisikan module, middleware
 const express = require('express')
 const app = express()
-const momgoose = require('mongoose')
+const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
-const {
-    default: mongoose
-} = require('mongoose')
 require('dotenv/config')
 
 //(6) middleware body parser
